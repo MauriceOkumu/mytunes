@@ -23,7 +23,7 @@ var SongQueue = Backbone.Collection.extend({
   dequeue: function(songPlaying) {
     this.shift();
     if (this.at(0)) {
-      this.playFirst()
+      this.playFirst();
     }
 
   }
