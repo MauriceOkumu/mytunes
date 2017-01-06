@@ -20,9 +20,6 @@ var SongQueueView = Backbone.View.extend({
 
     //calling this.collection.forEach(functionSongQueueEntryView.render() forEach in collection
   
-
-  // render: function() {
-
   }
 
 });
